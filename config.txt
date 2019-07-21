@@ -84,6 +84,7 @@ avoid_safe_mode=1
 
 #dtparam=audio=on
 display_lcd_rotate=1
+extra_transpose_buffer=2
 dtoverlay=dpi24-gpi
 disable_overscan=1
 overscan_left=0
