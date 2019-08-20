@@ -67,7 +67,7 @@ dtparam=audio=on
 #dtoverlay=lirc-rpi
 
 # if you plug your tv at the same time as your rpi and that the rpi switches from the hdmi or give a low resolution because tv had no enough time to initialize it
-boot_delay=3
+boot_delay=1
 
 # uncomment if you don't want the rainbow at startup
 disable_splash=1
@@ -82,15 +82,12 @@ gpu_mem_1024=512
 
 avoid_safe_mode=1
 
-#dtparam=audio=on
+kernel=kernel.img
+
 display_lcd_rotate=1
 extra_transpose_buffer=2
 dtoverlay=dpi24-gpi
 disable_overscan=1
-overscan_left=0
-overscan_right=0
-overscan_top=0
-overscan_bottom=0
 framebuffer_width=320
 framebuffer_height=240
 enable_dpi_lcd=1
